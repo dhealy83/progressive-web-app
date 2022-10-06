@@ -12,6 +12,8 @@ module.exports = () => {
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
+      header: "./src/js/header.js",
+      editor: "./src/js/editor",
     },
     output: {
       filename: "[name].bundle.js",
@@ -33,7 +35,7 @@ module.exports = () => {
         background_color: "#ffffff",
         start_url: "./",
         publicPath: "./",
-        inject: false,
+        inject: true,
         fingerprints: false,
         icons: [
           {
