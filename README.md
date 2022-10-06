@@ -19,7 +19,11 @@ This is a progressive web app that will install to your computer or phone.
 
 # Installation
 
-Install all dependencies whit "npm i" command in the terminal. After installation run "npm run start" to build the file structure and database. Following the build run "npm run start:dev" to start the server. Then open your localhost:3000 to see the app. To install on your computer click the button that says "Install."
+## https://pwa-enjoy.herokuapp.com/
+
+<br>
+
+Install all dependencies whit "npm i" command in the terminal. After installation run "npm run start" to build the file structure and database. Following the build run "npm run start:dev" to start the server. Then open your localhost:3000 to see the app. To install on your computer click the button that says "Install." Or go to https://pwa-enjoy.herokuapp.com/ and click install!
 
 # Usage
 
@@ -40,14 +44,16 @@ N/A
 
 # GitHub URL
 
-https://github.com/dhealy83/social-network-api
+https://github.com/dhealy83/progressive-web-app
 
 # Video Walk Through
 
-https://youtu.be/a61edBLJhkM
+n/a
 
 # Personal Links
 
 https://www.linkedin.com/in/david-healy-931583130/
 
 https://github.com/dhealy83
+
+http://david.healy.info
