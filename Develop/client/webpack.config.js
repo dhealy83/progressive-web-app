@@ -12,8 +12,6 @@ module.exports = () => {
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
-      header: "./src/js/header.js",
-      editor: "./src/js/editor",
     },
     output: {
       filename: "[name].bundle.js",
@@ -32,6 +30,7 @@ module.exports = () => {
         name: "My Progressive Web App",
         short_name: "MyPWA",
         description: "My awesome Progressive Web App!",
+        display: "standalone",
         background_color: "#ffffff",
         start_url: "./",
         publicPath: "./",
@@ -59,6 +58,10 @@ module.exports = () => {
             loader: "babel-loader",
             options: {
               presets: ["@babel/preset-env"],
+              plugins: [
+                "@babel/plugin-proposal-object-rest-spread",
+                "@babel/transform-runtime",
+              ],
             },
           },
         },
