@@ -30,7 +30,6 @@ export const getDb = async () => {
   const tx = openDb.transaction("jate", "readonly");
   const store = tx.objectStore("jate");
   const request = store.getAll();
-  const result = await request;
 
   const result = await request;
   console.log("result.value", result);
