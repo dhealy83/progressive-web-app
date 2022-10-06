@@ -20,13 +20,13 @@ module.exports = () => {
       path: path.resolve(__dirname, "dist"),
     },
     plugins: [
+      new HtmlWebpackPlugin({
+        template: "./index.html",
+        title: "jate",
+      }),
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
-      }),
-      new HtmlWebpackPlugin({
-        title: "jate",
-        template: "./index.html",
       }),
       new WebpackPwaManifest({
         name: "My Progressive Web App",

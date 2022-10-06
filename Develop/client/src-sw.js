@@ -22,7 +22,7 @@ const pageCache = new CacheFirst({
 });
 
 // TODO: Why do I need this???
-offlineFallback();
+// offlineFallback();
 // setDefaultHandler();
 
 imageCache();
