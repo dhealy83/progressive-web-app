@@ -1,7 +1,5 @@
 # Progressive Web App
 
-Module 19 Challenge - Just Another Text Editor
-
 [![License](https://camo.githubusercontent.com/00174ce28e4b4123200f38bf9917bf576eea4004df04ef48d365ab1ca90d7316/68747470733a2f2f62616467656e2e6e65742f6e706d2f762f73657175656c697a65)](https://www.npmjs.com/package/npm) See the deployed version here
 
 # Description
